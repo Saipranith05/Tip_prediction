@@ -35,7 +35,7 @@ insert into user_inputs(age, sex, bp, cholesterol, heart_disease)
 values(%s, %s, %s, %s, %s)
 """
 
-cursor.execute (query, (age, sex, bp, cholesterol, int(Prediction)))
+#cursor.execute (query, (age, sex, bp, cholesterol, int(Prediction)))
 
 db.commit()
 st.write("Data save to the Database")
