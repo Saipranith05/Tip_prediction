@@ -5,7 +5,7 @@ import numpy as np
 model = joblib.load("tips.pkl")
 
 st.title("App of Prediction")
-st.image("wallpaper.jpg")
+st.image("download.jpeg")
 
 #total_bill = st.number_input("Please enter your total_bill:", min_value=0, step=0)
 #gender = st.selectbox('sex(0:Male, 1:Female)', [0,1])
